@@ -1,0 +1,48 @@
+base:
+  data_folder_path : '/data3/zhangxiaohui/CLEAR-Continual_Learning_Benchmark/labeled_images'
+  # data_train_path : '/data3/zhangxiaohui/CLEAR-Continual_Learning_Benchmark/labeled_images'
+  data_train_path : ''
+  # data_test_path : '/data3/zhiqiul/clear_datasets/CLEAR10-TEST-CLEANED/labeled_images'
+  data_test_path : ''
+  # feature_path : '/data/jiashi/'
+  feature_path : '/data3/zhangxiaohui/CLEAR-Continual_Learning_Benchmark/features/'
+  class_list : 'BACKGROUND baseball bus camera cosplay dress hockey laptop racing soccer sweater'
+
+training:
+  # method : 'LwF Replay  Reservoir BiasReservoir_Fixed_reset_0.2 BiasReservoir_Dynamic_1.0 ' 
+  method : 'RAWM' 
+  split : 'clear10_moco_res50_public_private'
+  restart : '0'
+  timestamp : 10
+  num_classes : 11
+  num_instance_each_class : 300
+  num_instance_each_class_test : 150
+  load_prev: False # whether load previous unfinished timestamp training 
+  eval: False
+
+image_train:
+  image_train_model_arch: 'resnet50' 
+  image_train_pretrain: True
+  image_train_attribute: ''
+
+feature_train:
+  pretrain_feature : 'imagenet_resnet50_clear_10_feature'
+  # pretrain_feature : "CNN" 
+  pretrain_feature_shape: 2048
+  
+  
+
+parameter:
+  nepoch : 1
+  batch_size : 512
+  step_schedular_decay : 60
+  schedular_step : 0.1
+  start_lr : 1
+  weight_decay : 0.
+  momentum : 0.9
+  random_seed : 1111
+  test_split : 0.3
+  max_memory_size : 30000000
+
+
+    
