@@ -54,5 +54,4 @@ An example would be:
 ```
 python parse_log_to_result.py --split clear100_feature_resnet50_moco --verbose 1 --move 1
 ```
-### The code is based on the official code of the CLEAR benchmark
-This project include the RAWM mentioned in our paper that (re)produced by us.
+The code is based on the official code of the CLEAR benchmark. This project include the RAWM mentioned in our paper that (re)produced by us.
