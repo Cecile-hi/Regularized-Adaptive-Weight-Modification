@@ -1,5 +1,5 @@
 # RAWM
-This is the official project of the Regularized Adaptive Weight Modification (RAWM) method proposed by our paper titled 'Do You Remember? Overcoming Catastrophic Forgetting for Fake Audio Detection' published on the 40th International Conference on Machine Learning (ICML 2023).
+This is the official project of the Regularized Adaptive Weight Modification (RAWM) method proposed by our paper titled 'Do You Remember? Overcoming Catastrophic Forgetting for Fake Audio Detection' published on the 40th International Conference on Machine Learning (ICML 2023) (https://arxiv.org/abs/2308.03300).
 ## Citation
 
 If you find this toolkit useful, please consider citing following papers.
