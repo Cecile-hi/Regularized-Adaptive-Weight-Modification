@@ -1,7 +1,12 @@
 # RAWM
 This is the official project of the Regularized Adaptive Weight Modification (RAWM) method proposed by our paper titled 'Do You Remember? Overcoming Catastrophic Forgetting for Fake Audio Detection' published on the 40th International Conference on Machine Learning (ICML 2023) (https://arxiv.org/abs/2308.03300).
 
-# Find our Recent Work!
+## A Continual Learning Benchmark for Audio deepfake detection
+
+The first Continual Learning Benchmark for Audio deepfake detection has been released, see it in https://github.com/Cecile-hi/Evolving-FAD-CL-Benchmark. RAWM and RWM have also been added, check it out 🔍! 
+
+
+## Find our Recent Work!
 In recent days, we proposed another continual learning method named Radian Weight Modification, for audio deepfake detection and other tasks, (eg. image reognition), published on the the 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024) (https://arxiv.org/abs/2312.09651). Check it out!
 
 ## Citation
